@@ -1,4 +1,4 @@
-# last modified: 2026-01-06
+# last modified: 2026-04-07
 # machine: lenovo / endevourOS
 
 # exec --no-startup-id ~/set_once.sh
@@ -443,7 +443,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-scale /home/zsoci/Downloads/arch.png
+exec --no-startup-id feh --bg-scale /home/zsoci/wallpapers/arch.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
