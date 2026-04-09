@@ -444,7 +444,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
 # exec --no-startup-id feh --bg-scale /home/zsoci/wallpapers/arch.png
-~/.fehbg &
+exec_always --no-startup-id ~/.fehbg &
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
