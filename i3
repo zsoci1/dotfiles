@@ -1,4 +1,4 @@
-# last modified: 2026-04-09
+# last modified: 2026-04-14
 # machine: lenovo / endevourOS
 
 # exec --no-startup-id ~/set_once.sh
@@ -302,7 +302,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym $mod+p exec --no-startup-id ~/.config/i3/scripts/audio-device-switch
 
 ## App shortcuts
-bindsym $mod+w exec --no-startup-id /usr/bin/firefox
+# bindsym $mod+shift+w exec --no-startup-id /usr/bin/firefox
 bindsym $mod+n exec --no-startup-id /usr/bin/thunar
 
 # Screenshot
@@ -480,7 +480,7 @@ exec --no-startup-id /usr/bin/dunst
 
 # Autostart apps as you like
 #exec --no-startup-id sleep 2 && xfce4-terminal
-exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
+#exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
 #exec --no-startup-id sleep 3 && thunar
 
 
