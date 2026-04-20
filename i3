@@ -302,7 +302,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym $mod+p exec --no-startup-id ~/.config/i3/scripts/audio-device-switch
 
 ## App shortcuts
-# bindsym $mod+shift+w exec --no-startup-id /usr/bin/firefox
+bindsym $mod++w exec --no-startup-id /usr/bin/firefox
 bindsym $mod+n exec --no-startup-id /usr/bin/thunar
 
 # Screenshot
@@ -443,7 +443,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-# exec --no-startup-id feh --bg-scale /home/zsoci/wallpapers/arch.png
+exec --no-startup-id feh --bg-scale /home/zsoci/wallpapers/arch.png
 exec_always --no-startup-id ~/.fehbg &
 
 # set powersavings for display:
