@@ -1,4 +1,4 @@
-# last modified: 2026-04-14
+# last modified: 2026-04-20
 # machine: lenovo / endevourOS
 
 # exec --no-startup-id ~/set_once.sh
